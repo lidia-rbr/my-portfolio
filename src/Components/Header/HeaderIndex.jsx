@@ -5,7 +5,7 @@ import { useContext, useState, useEffect } from "react";
 import { ThemeContext } from "../../Utils/Context/ThemeContext";
 
 const StyledLink = styled(Link)`
-  margin: 15px 15px 0px 15px;
+  margin: 15px;
   background-image: linear-gradient(
     to right,
     ${({ theme }) => theme.primary},
@@ -14,7 +14,7 @@ const StyledLink = styled(Link)`
   );
   background-size: 200% 100%;
   background-position: -100%;
-  position: relative;
+  position: relative;   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
