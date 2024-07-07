@@ -1,17 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { CustomThemeProvider } from "./Utils/Context/ThemeContext";
+import Header from "./Components/Header/HeaderIndex";
+import MainSection from "./Components/Main/MainIndex";
+import About from "./Components/About/AboutIndex";
+import Footer from "./Components/Footer/FooterIndex";
+import GlobalStyle from "./Utils/Style/GlobalStyle";
+import ResumeSection from "./Components/Resume/ResumeIndex";
+import EducationSection from "./Components/Education/EducationIndex";
+import ProjectsSection from "./Components/Projects/ProjectsIndex";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+      <CustomThemeProvider>
+        <GlobalStyle />
+        <Header />
+        <MainSection />
+        <About />
+        <ResumeSection />
+        <EducationSection />
+        <ProjectsSection />
+        <Footer />
+        {/* <ChildComponent /> */}
+      </CustomThemeProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
