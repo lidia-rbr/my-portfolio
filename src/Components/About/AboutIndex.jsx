@@ -138,7 +138,7 @@ const AboutSection = () => {
             skills across various technologies and industries, thriving on the
             challenges and opportunities each project brings.
           </Text>
-          <Skills>
+          <Skills className="anchor">
             <Skill>
               <SkillTitle>Html</SkillTitle>
               <Stars>★★★★★</Stars>
@@ -173,7 +173,7 @@ const AboutSection = () => {
             </Skill>
           </Skills>
           <Button>
-            <a href="/RESUMELIDIA2024.pdf" download>
+            <a href="/RESUMELIDIA2024.pdf" download="RESUMELIDIA2024.pdf">
               Download CV
             </a>
           </Button>
