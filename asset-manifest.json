@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6f4734f3.css",
+    "main.css": "/my-portfolio/static/css/main.39e61a79.css",
     "main.js": "/my-portfolio/static/js/main.cbb96d8d.js",
     "static/media/e-shop.gif": "/my-portfolio/static/media/e-shop.07720d81434c18e18365.gif",
     "static/media/main-profile-picture.png": "/my-portfolio/static/media/main-profile-picture.dd2a159b5751fbedee1c.png",
@@ -38,11 +38,11 @@
     "static/media/raleway-vietnamese-400-normal.woff": "/my-portfolio/static/media/raleway-vietnamese-400-normal.b1a419d3ead111471ac7.woff",
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.6f4734f3.css.map": "/my-portfolio/static/css/main.6f4734f3.css.map",
+    "main.39e61a79.css.map": "/my-portfolio/static/css/main.39e61a79.css.map",
     "main.cbb96d8d.js.map": "/my-portfolio/static/js/main.cbb96d8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f4734f3.css",
+    "static/css/main.39e61a79.css",
     "static/js/main.cbb96d8d.js"
   ]
 }
