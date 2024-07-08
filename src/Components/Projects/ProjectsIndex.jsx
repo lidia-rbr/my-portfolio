@@ -41,11 +41,13 @@ const Card = styled.div`
   overflow: hidden;
   box-shadow: 0 4px 8px ${({ theme }) => theme.extraDark};
   flex: 0 0 40.3%;
+  display: flex;
+  flex-direction: column;
 
   @media (max-width: 769px) {
-    width: 80%;
+    width: 100%;
     flex: none;
-    margin: 3%;
+    margin-bottom: 3%;
   }
 `;
 
@@ -56,6 +58,11 @@ const CardImage = styled.img`
 
 const CardContent = styled.div`
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: -webkit-fill-available;
 `;
 
 const CardTitle = styled.h3`
@@ -72,6 +79,7 @@ const Button = styled.button`
   background-color: ${({ theme }) => theme.primary};
   color: #ffffff;
   border: none;
+  width: 50%;
   padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
@@ -86,6 +94,10 @@ const Button = styled.button`
     text-decoration: none;
     color: #ffffff;
   }
+
+  @media (max-width: 769px) {
+    width: 100%;
+  }
 `;
 
 const ProjectsSection = () => {
@@ -93,7 +105,7 @@ const ProjectsSection = () => {
     <Section id="projects" className="anchor">
       <Container>
         <Subtitle>PROJECTS</Subtitle>
-        <Title>My Work</Title>
+        <Title>Some projects</Title>
 
         <ProjectsGrid>
           <Card>
@@ -101,10 +113,15 @@ const ProjectsSection = () => {
             <CardContent>
               <CardTitle>Merch tool</CardTitle>
               <CardDescription>
-              A Google Sheets tool for tracking merchandise stock, adding sales data, managing products, and monitoring key performance indicators (KPIs).
+                A Google Sheets tool for tracking merchandise stock, adding
+                sales data, managing products, and monitoring key performance
+                indicators (KPIs).
               </CardDescription>
               <Button>
-                <a href="https://docs.google.com/spreadsheets/d/12ezWoWS9-zXDTCKvnoD6wx2N2KSJ0DbJZZKxuWCGPUM/edit?gid=49658043#gid=49658043" target="_blank">
+                <a
+                  href="https://docs.google.com/spreadsheets/d/12ezWoWS9-zXDTCKvnoD6wx2N2KSJ0DbJZZKxuWCGPUM/edit?gid=49658043#gid=49658043"
+                  target="_blank"
+                >
                   View Project
                 </a>
               </Button>
@@ -116,9 +133,13 @@ const ProjectsSection = () => {
             <CardContent>
               <CardTitle>E-commerce</CardTitle>
               <CardDescription>
-              A basic e-commerce website built with React.js.
+                A basic e-commerce website built with React.js.
               </CardDescription>
-              <Button><a href="https://github.com/lidia-rbr/madadis" target="_blank">View Project</a></Button>
+              <Button>
+                <a href="https://github.com/lidia-rbr/madadis" target="_blank">
+                  View Project
+                </a>
+              </Button>
             </CardContent>
           </Card>
 
@@ -127,9 +148,17 @@ const ProjectsSection = () => {
             <CardContent>
               <CardTitle>Drive Scanner</CardTitle>
               <CardDescription>
-              An Apps Script project to import metadata of all files within a given folder, shared drive, or entire drive into Google Sheets.
+                An Apps Script project to import metadata of all files within a
+                given folder, shared drive, or entire drive into Google Sheets.
               </CardDescription>
-              <Button><a href="https://github.com/lidia-rbr/DriveScanner" target="_blank">View Project</a></Button>
+              <Button>
+                <a
+                  href="https://github.com/lidia-rbr/DriveScanner"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </Button>
             </CardContent>
           </Card>
 
@@ -138,9 +167,17 @@ const ProjectsSection = () => {
             <CardContent>
               <CardTitle>TITUS Tag convertor</CardTitle>
               <CardDescription>
-              A Google Drive add-on to read Titus tags of uploaded files and convert them into Google labels.
+                A Google Drive add-on to read Titus tags of uploaded files and
+                convert them into Google labels.
               </CardDescription>
-              <Button><a href="https://github.com/lidia-rbr/TITUS-Tag-reader" target="_blank">View Project</a></Button>
+              <Button>
+                <a
+                  href="https://github.com/lidia-rbr/TITUS-Tag-reader"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </Button>
             </CardContent>
           </Card>
         </ProjectsGrid>

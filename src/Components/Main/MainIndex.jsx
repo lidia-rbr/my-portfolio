@@ -73,7 +73,7 @@ const Name = styled.h2`
 
 const Subtitle = styled.p`
   font-size: 3vw;
-  color: ${({ theme }) => theme.primary}; /* Light orange color */
+  color: ${({ theme }) => theme.primary};
   margin: 10px 0;
 
   @media (max-width: 769px) {
@@ -82,7 +82,7 @@ const Subtitle = styled.p`
 `;
 
 const Button = styled.button`
-  background-color: ${({ theme }) => theme.primary}; /* Light orange color */
+  background-color: ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.text};
   border: none;
   padding: 10px 20px;
