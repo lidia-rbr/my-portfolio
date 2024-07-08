@@ -173,7 +173,7 @@ const AboutSection = () => {
             </Skill>
           </Skills>
           <Button>
-            <a href="/RESUMELIDIA2024.pdf" download="RESUMELIDIA2024.pdf">
+            <a href="https://lidia-rbr.github.io/my-portfolio/RESUMELIDIA2024.pdf" download="RESUMELIDIA2024.pdf">
               Download CV
             </a>
           </Button>
