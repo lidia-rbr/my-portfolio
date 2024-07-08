@@ -81,7 +81,7 @@ const StyledLeftNav = styled.div`
   @media (max-width: 500px) {
     max-height: ${({ isOpen }) => (isOpen ? "300px" : "0")};
     opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
-    display: grid;
+    display: ${({ isOpen }) => (isOpen ? "grid" : "none")};
     transition: max-height 0.1s ease-in-out, opacity 0.1s ease-in-out;
     position: inherit;
     flex-direction: column;
