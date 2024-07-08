@@ -192,6 +192,14 @@ function Header() {
           >
             Projects
           </StyledLink>
+          <StyledLink
+            to="contact"
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            Contact
+          </StyledLink>
         </StyledLeftNav>
         <StyledRightNav>
           <NightModeButton onClick={() => toggleTheme()}>

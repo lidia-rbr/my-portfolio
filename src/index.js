@@ -10,6 +10,7 @@ import GlobalStyle from "./Utils/Style/GlobalStyle";
 import ResumeSection from "./Components/Resume/ResumeIndex";
 import EducationSection from "./Components/Education/EducationIndex";
 import ProjectsSection from "./Components/Projects/ProjectsIndex";
+import Contact from "./Components/Contact/ContactIndex";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <ResumeSection />
         <EducationSection />
         <ProjectsSection />
+        <Contact />
         <Footer />
         {/* <ChildComponent /> */}
       </CustomThemeProvider>

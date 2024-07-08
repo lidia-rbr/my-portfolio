@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledFooter = styled.footer`
-  background-color: ${({ theme }) => theme.dark};
+  background-color: ${({ theme }) => theme.extraDark};
   color: ${({ theme }) => theme.primary};
   padding: 50px;
   display: flex;
