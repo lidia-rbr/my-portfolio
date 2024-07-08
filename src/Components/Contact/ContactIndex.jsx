@@ -26,6 +26,9 @@ const Container = styled.div`
   @media (max-width: 769px) {
     flex-direction: column;
   }
+  @media (min-width: 769px) and (max-width: 1124px) {
+    max-width: 90%;
+  }
 `;
 
 const ContactLeft = styled.div`
@@ -114,7 +117,7 @@ const Contact = () => {
             </ContactItem>
             <ContactItem>
               <Icon>
-                <i className="fa fa-linkedin" aria-hidden="true" />
+                <i className="fa-brands fa-linkedin-in" aria-hidden="true" />
               </Icon>
               <a
                 href="https://www.linkedin.com/in/lidia-r-b56b73150/"
@@ -122,6 +125,30 @@ const Contact = () => {
                 rel="noopener noreferrer"
               >
                 LinkedIn Profile
+              </a>
+            </ContactItem>
+            <ContactItem>
+              <Icon>
+                <i className="fa-brands fa-github" aria-hidden="true" />
+              </Icon>
+              <a
+                href="https://github.com/lidia-rbr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </ContactItem>
+            <ContactItem>
+              <Icon>
+                <i className="fa-brands fa-stack-overflow" aria-hidden="true" />
+              </Icon>
+              <a
+                href="https://stackoverflow.com/users/23998795/lidia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Stack Overflow
               </a>
             </ContactItem>
           </ContactInfo>

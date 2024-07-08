@@ -113,7 +113,7 @@ const MainSection = () => {
       <TextContainer>
         <h1>Hello, My Name Is</h1>
         <Name>Lidia Ribeiro</Name>
-        <Subtitle> A Creative Full Stack Developer</Subtitle>
+        <Subtitle> A Creative Software engineer</Subtitle>
         <Button onClick={handleEmailLinkClick}>
             Let's chat!
         </Button>

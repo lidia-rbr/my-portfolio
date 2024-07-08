@@ -43,6 +43,7 @@ const Card = styled.div`
   flex: 0 0 40.3%;
   display: flex;
   flex-direction: column;
+  max-height: 540px;
 
   @media (max-width: 769px) {
     width: 100%;

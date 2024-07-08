@@ -14,7 +14,7 @@ const StyledLink = styled(Link)`
   );
   background-size: 200% 100%;
   background-position: -100%;
-  position: relative;   
+  position: relative;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
@@ -119,6 +119,12 @@ const NightModeButton = styled.button`
   cursor: pointer;
 `;
 
+const Icon = styled.span`
+  font-size: 1rem;
+  margin-right: 10px;
+  color: ${({ theme }) => theme.primary};
+`;
+
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -202,6 +208,15 @@ function Header() {
           </StyledLink>
         </StyledLeftNav>
         <StyledRightNav>
+          <a
+            href="https://github.com/lidia-rbr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon>
+              <i className="fa-brands fa-github" aria-hidden="true" />
+            </Icon>
+          </a>
           <NightModeButton onClick={() => toggleTheme()}>
             {theme === "sunset" ? "🌸" : "🌅"}
           </NightModeButton>
