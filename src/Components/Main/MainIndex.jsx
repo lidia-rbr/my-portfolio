@@ -94,16 +94,29 @@ const Button = styled.button`
   &:hover {
     background-color: ${({ theme }) => theme.accent};
   }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
 `;
 
 const MainSection = () => {
+  const handleEmailLinkClick = (event) => {
+    event.preventDefault();
+    const mailtoLink = "mailto:lidia.calicia@gmail.com";
+    window.location.href = mailtoLink;
+  };
+
   return (
     <Section id="main" className="anchor">
       <TextContainer>
         <h1>Hello, My Name Is</h1>
         <Name>Lidia Ribeiro</Name>
         <Subtitle> A Creative Full Stack Developer</Subtitle>
-        <Button>Know More</Button>
+        <Button onClick={handleEmailLinkClick}>
+            Let's chat!
+        </Button>
       </TextContainer>
       <ImageContainer />
     </Section>
