@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.78408d84.css",
-    "main.js": "/my-portfolio/static/js/main.44ec37e0.js",
+    "main.css": "/my-portfolio/static/css/main.6f4734f3.css",
+    "main.js": "/my-portfolio/static/js/main.af610861.js",
     "static/media/e-shop.gif": "/my-portfolio/static/media/e-shop.07720d81434c18e18365.gif",
     "static/media/main-profile-picture.png": "/my-portfolio/static/media/main-profile-picture.dd2a159b5751fbedee1c.png",
     "static/media/secondary-profile-picture.JPEG": "/my-portfolio/static/media/secondary-profile-picture.e867f57accdd4dc9791c.JPEG",
+    "static/media/fa-solid-900.ttf": "/my-portfolio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/merch-tool.gif": "/my-portfolio/static/media/merch-tool.f258a89f777260f1b178.gif",
     "static/media/drive-scanner.gif": "/my-portfolio/static/media/drive-scanner.f0288672ac88c0ec373e.gif",
+    "static/media/fa-brands-400.ttf": "/my-portfolio/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
     "static/media/titus.gif": "/my-portfolio/static/media/titus.2b9df489ff3b34e78f5a.gif",
+    "static/media/fa-regular-400.ttf": "/my-portfolio/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/contact-picture.JPEG": "/my-portfolio/static/media/contact-picture.5581df152322009fa845.JPEG",
+    "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
     "static/media/raleway-latin-400-italic.woff2": "/my-portfolio/static/media/raleway-latin-400-italic.761b5749c5d29fd04efd.woff2",
     "static/media/raleway-latin-400-italic.woff": "/my-portfolio/static/media/raleway-latin-400-italic.564a97a8b018ef1d70fe.woff",
     "static/media/raleway-latin-400-normal.woff": "/my-portfolio/static/media/raleway-latin-400-normal.7274e8a7766c320ff67b.woff",
@@ -24,16 +31,18 @@
     "static/media/raleway-cyrillic-ext-400-normal.woff": "/my-portfolio/static/media/raleway-cyrillic-ext-400-normal.5a5510fbec564ecd00ed.woff",
     "static/media/raleway-cyrillic-400-italic.woff": "/my-portfolio/static/media/raleway-cyrillic-400-italic.61a874fc62f61e2e91cf.woff",
     "static/media/raleway-cyrillic-400-normal.woff": "/my-portfolio/static/media/raleway-cyrillic-400-normal.085b633264f5a36c2e35.woff",
+    "static/media/fa-v4compatibility.ttf": "/my-portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/raleway-vietnamese-400-italic.woff2": "/my-portfolio/static/media/raleway-vietnamese-400-italic.4f1a18a9a006e5157e6d.woff2",
     "static/media/raleway-vietnamese-400-normal.woff2": "/my-portfolio/static/media/raleway-vietnamese-400-normal.5212361bfd059a27e2da.woff2",
     "static/media/raleway-vietnamese-400-italic.woff": "/my-portfolio/static/media/raleway-vietnamese-400-italic.437192e8ccc4467c89dc.woff",
     "static/media/raleway-vietnamese-400-normal.woff": "/my-portfolio/static/media/raleway-vietnamese-400-normal.b1a419d3ead111471ac7.woff",
+    "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.78408d84.css.map": "/my-portfolio/static/css/main.78408d84.css.map",
-    "main.44ec37e0.js.map": "/my-portfolio/static/js/main.44ec37e0.js.map"
+    "main.6f4734f3.css.map": "/my-portfolio/static/css/main.6f4734f3.css.map",
+    "main.af610861.js.map": "/my-portfolio/static/js/main.af610861.js.map"
   },
   "entrypoints": [
-    "static/css/main.78408d84.css",
-    "static/js/main.44ec37e0.js"
+    "static/css/main.6f4734f3.css",
+    "static/js/main.af610861.js"
   ]
 }
