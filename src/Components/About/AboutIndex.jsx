@@ -155,6 +155,10 @@ const AboutSection = () => {
               <Stars>★★★★★</Stars>
             </Skill>
             <Skill>
+              <SkillTitle>Appsheet</SkillTitle>
+              <Stars>★★★★★</Stars>
+            </Skill>
+            <Skill>
               <SkillTitle>Google Suite</SkillTitle>
               <Stars>★★★★★</Stars>
             </Skill>
@@ -165,10 +169,6 @@ const AboutSection = () => {
             <Skill>
               <SkillTitle>Node.js</SkillTitle>
               <Stars>★★★★☆</Stars>
-            </Skill>
-            <Skill>
-              <SkillTitle>Appsheet</SkillTitle>
-              <Stars>★★★☆☆</Stars>
             </Skill>
           </Skills>
           <Button>
