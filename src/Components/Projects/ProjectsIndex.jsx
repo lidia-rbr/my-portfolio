@@ -44,6 +44,7 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   max-height: 570px;
+  box-sizing: border-box;
 
   @media (max-width: 769px) {
     width: 100%;
@@ -63,8 +64,10 @@ const CardContent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: -webkit-fill-available;
+  height: 100%;
+  box-sizing: border-box;
 `;
+
 
 const CardTitle = styled.h3`
   font-size: 1.5rem;
@@ -86,6 +89,8 @@ const Button = styled.button`
   cursor: pointer;
   border-radius: 5px;
   margin-top: 20px;
+  display: block; /* Ensure the button is a block element */
+  text-align: center;
 
   &:hover {
     background-color: ${({ theme }) => theme.accent};
@@ -94,6 +99,7 @@ const Button = styled.button`
   a {
     text-decoration: none;
     color: #ffffff;
+    display: block; /* Ensure the anchor is a block element */
   }
 
   @media (max-width: 769px) {
