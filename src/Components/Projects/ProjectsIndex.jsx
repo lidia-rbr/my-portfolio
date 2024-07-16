@@ -122,6 +122,7 @@ const ProjectsSection = () => {
                 <a
                   href="https://docs.google.com/spreadsheets/d/12ezWoWS9-zXDTCKvnoD6wx2N2KSJ0DbJZZKxuWCGPUM/edit?gid=49658043#gid=49658043"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   View Project
                 </a>
@@ -137,7 +138,11 @@ const ProjectsSection = () => {
                 A basic e-commerce website built with React.js.
               </CardDescription>
               <Button>
-                <a href="https://github.com/lidia-rbr/madadis" target="_blank">
+                <a
+                  href="https://github.com/lidia-rbr/madadis"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View Project
                 </a>
               </Button>
@@ -156,6 +161,7 @@ const ProjectsSection = () => {
                 <a
                   href="https://github.com/lidia-rbr/DriveScanner"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   View Project
                 </a>
@@ -175,6 +181,7 @@ const ProjectsSection = () => {
                 <a
                   href="https://github.com/lidia-rbr/TITUS-Tag-reader"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   View Project
                 </a>

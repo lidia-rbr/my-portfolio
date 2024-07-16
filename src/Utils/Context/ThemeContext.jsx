@@ -1,4 +1,4 @@
-import React, { useState, createContext, useContext } from "react";
+import React, { useState, createContext } from "react";
 import { ThemeProvider } from "styled-components";
 import { sunsetTheme, blossomTheme } from "../Colors/Colors";
 
