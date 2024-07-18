@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import merchToolLarge from "../../Assets/merch-tool.gif";
-import eShop from "../../Assets/e-shop.gif";
+import eShop from "../../Assets/eshop-v2.gif";
 import driveScanner from "../../Assets/drive-scanner.gif";
 import titus from "../../Assets/titus.gif";
 
