@@ -1,7 +1,7 @@
 import React from "react";
 import YouTube from "react-youtube";
 import styled from "styled-components";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 const Section = styled.section`
   background: linear-gradient(
