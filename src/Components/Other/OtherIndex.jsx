@@ -1,6 +1,7 @@
 import React from "react";
 import YouTube from "react-youtube";
 import styled from "styled-components";
+import { useEffect } from "react";
 
 const Section = styled.section`
   background: linear-gradient(
@@ -77,6 +78,10 @@ const VideoContainer = styled.div`
 const Video = styled(YouTube)`
   margin: 20px;
 
+  iframe {
+    pointer-events: none;
+  }
+
   @media (max-width: 769px) {
     width: auto;
     margin: 10px 0;
@@ -96,6 +101,21 @@ const Video = styled(YouTube)`
 `;
 
 const VideoSection = () => {
+  useEffect(() => {
+    const handleScroll = (event) => {
+      window.scrollBy({
+        top: event.deltaY,
+        left: 0,
+        behavior: "auto",
+      });
+    };
+
+    window.addEventListener("wheel", handleScroll);
+
+    return () => {
+      window.removeEventListener("wheel", handleScroll);
+    };
+  }, []);
   return (
     <Section id="videoSection" className="anchor">
       <Container>
@@ -108,9 +128,9 @@ const VideoSection = () => {
           </Text>
         </TextContainer>
         <VideoContainer>
-          <Video videoId="w99F_b_WGGQ" />
-          <Video videoId="3QHsrgYqHrA" />
-          <Video videoId="pzgzqxfmnhM" />
+          <Video className="anchor" videoId="w99F_b_WGGQ" />
+          <Video className="anchor" videoId="3QHsrgYqHrA" />
+          <Video className="anchor" videoId="pzgzqxfmnhM" />
         </VideoContainer>
       </Container>
     </Section>

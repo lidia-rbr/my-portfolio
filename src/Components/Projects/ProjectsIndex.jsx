@@ -115,7 +115,7 @@ const ProjectsSection = () => {
         <Title>Some projects</Title>
 
         <ProjectsGrid>
-          <Card>
+          <Card className="anchor">
             <CardImage src={merchToolLarge} alt="Project 1" />
             <CardContent>
               <CardTitle>Merch tool</CardTitle>
@@ -136,7 +136,7 @@ const ProjectsSection = () => {
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="anchor">
             <CardImage src={eShop} alt="Project 2" />
             <CardContent>
               <CardTitle>E-commerce</CardTitle>
@@ -155,7 +155,7 @@ const ProjectsSection = () => {
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="anchor">
             <CardImage src={driveScanner} alt="Project 3" />
             <CardContent>
               <CardTitle>Drive Scanner</CardTitle>
@@ -175,7 +175,7 @@ const ProjectsSection = () => {
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="anchor">
             <CardImage src={titus} alt="Project 4" />
             <CardContent>
               <CardTitle>TITUS Tag convertor</CardTitle>
