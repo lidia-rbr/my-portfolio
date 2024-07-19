@@ -206,6 +206,14 @@ function Header() {
           >
             Contact
           </StyledLink>
+          <StyledLink
+            to="videoSection"
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            📽️
+          </StyledLink>
         </StyledLeftNav>
         <StyledRightNav>
           <a

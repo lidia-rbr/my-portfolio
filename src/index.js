@@ -11,6 +11,7 @@ import ResumeSection from "./Components/Resume/ResumeIndex";
 import EducationSection from "./Components/Education/EducationIndex";
 import ProjectsSection from "./Components/Projects/ProjectsIndex";
 import Contact from "./Components/Contact/ContactIndex";
+import VideoSection from "./Components/Other/OtherIndex";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +25,7 @@ root.render(
         <EducationSection />
         <ProjectsSection />
         <Contact />
+        <VideoSection />
         <Footer />
         {/* <ChildComponent /> */}
       </CustomThemeProvider>
