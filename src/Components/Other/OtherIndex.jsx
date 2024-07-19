@@ -71,19 +71,27 @@ const TextContainer = styled.div`
 const VideoContainer = styled.div`
   display: flex;
   align-items: center;
-
-  @media (max-width: 1024px) {
-    flex-direction: column;
-  }
+  flex-direction: column;
 `;
 
 const Video = styled(YouTube)`
   margin: 20px;
-  width: 30%;
 
   @media (max-width: 769px) {
     width: auto;
     margin: 10px 0;
+  }
+  @media (max-width: 1024px) {
+    iframe {
+      width: 80vw;
+      aspect-ratio: 2;
+    }
+  }
+  @media (min-width: 1024px) {
+    iframe {
+      width: 60vw;
+      aspect-ratio: 2;
+    }
   }
 `;
 
