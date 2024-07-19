@@ -78,9 +78,9 @@ const VideoContainer = styled.div`
 const Video = styled(YouTube)`
   margin: 20px;
 
-  iframe {
-    pointer-events: none;
-  }
+//   iframe {
+//     pointer-events: none;
+//   }
 
   @media (max-width: 769px) {
     width: auto;
