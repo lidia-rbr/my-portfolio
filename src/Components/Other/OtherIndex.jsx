@@ -75,12 +75,13 @@ const VideoContainer = styled.div`
   flex-direction: column;
 `;
 
+const VideoTitle = styled.p`
+  font-size: 1rem;
+  color: ${({ theme }) => theme.primary};
+`;
+
 const Video = styled(YouTube)`
   margin: 20px;
-
-//   iframe {
-//     pointer-events: none;
-//   }
 
   @media (max-width: 769px) {
     width: auto;
@@ -101,21 +102,6 @@ const Video = styled(YouTube)`
 `;
 
 const VideoSection = () => {
-//   useEffect(() => {
-//     const handleScroll = (event) => {
-//       window.scrollBy({
-//         top: event.deltaY,
-//         left: 0,
-//         behavior: "auto",
-//       });
-//     };
-
-//     window.addEventListener("wheel", handleScroll);
-
-//     return () => {
-//       window.removeEventListener("wheel", handleScroll);
-//     };
-//   }, []);
   return (
     <Section id="videoSection" className="anchor">
       <Container>
@@ -129,8 +115,11 @@ const VideoSection = () => {
         </TextContainer>
         <VideoContainer>
           <Video className="anchor" videoId="w99F_b_WGGQ" />
+           <VideoTitle>As the forever Radiohead fan that I am</VideoTitle>
           <Video className="anchor" videoId="3QHsrgYqHrA" />
+          <VideoTitle>Just for fun🏄</VideoTitle>
           <Video className="anchor" videoId="pzgzqxfmnhM" />
+          <VideoTitle>Trying something different</VideoTitle>
         </VideoContainer>
       </Container>
     </Section>
