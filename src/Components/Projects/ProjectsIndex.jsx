@@ -4,6 +4,7 @@ import merchToolLarge from "../../Assets/merch-tool.gif";
 import eShop from "../../Assets/eshop-v2.gif";
 import driveScanner from "../../Assets/drive-scanner.gif";
 import titus from "../../Assets/titus.gif";
+import base64 from "../../Assets/base-64.gif";
 
 const Section = styled.section`
   color: ${({ theme }) => theme.text};
@@ -68,10 +69,15 @@ const CardContent = styled.div`
   box-sizing: border-box;
 `;
 
-
 const CardTitle = styled.h3`
   font-size: 1.5rem;
   margin: 0 0 10px;
+`;
+
+const CardSubTitle = styled.h5`
+  // font-size: 1.5rem;
+  margin: 0 0 10px;
+  color: ${({ theme }) => theme.accent};
 `;
 
 const CardDescription = styled.p`
@@ -119,6 +125,7 @@ const ProjectsSection = () => {
             <CardImage src={merchToolLarge} alt="Project 1" />
             <CardContent>
               <CardTitle>Merch tool</CardTitle>
+              <CardSubTitle>Technologies Used: Google Sheets, Apps Script</CardSubTitle>
               <CardDescription>
                 A Google Sheets tool for tracking merchandise stock, adding
                 sales data, managing products, and monitoring key performance
@@ -137,9 +144,30 @@ const ProjectsSection = () => {
           </Card>
 
           <Card className="anchor">
+            <CardImage src={base64} alt="Project 1" />
+            <CardContent>
+              <CardTitle>Convert URLs to base 64 in Sheets</CardTitle>
+              <CardSubTitle>Technologies Used: Google Sheets, Apps Script</CardSubTitle>
+              <CardDescription>
+                A Google Sheets tool to convert image URLs in base 64
+              </CardDescription>
+              <Button>
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1Z8b5vUUn62Ox-LxqEI3ZOS6bcEYeN_zZdJTRcJoc2qE/edit?gid=1328248532#gid=1328248532"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Project
+                </a>
+              </Button>
+            </CardContent>
+          </Card>
+
+          <Card className="anchor">
             <CardImage src={eShop} alt="Project 2" />
             <CardContent>
               <CardTitle>E-commerce</CardTitle>
+              <CardSubTitle>Technologies Used: React.js</CardSubTitle>
               <CardDescription>
                 A basic e-commerce website built with React.js.
               </CardDescription>
@@ -159,6 +187,7 @@ const ProjectsSection = () => {
             <CardImage src={driveScanner} alt="Project 3" />
             <CardContent>
               <CardTitle>Drive Scanner</CardTitle>
+              <CardSubTitle>Technologies Used: Google Sheets, Apps Script, Drive API (V2)</CardSubTitle>
               <CardDescription>
                 An Apps Script project to import metadata of all files within a
                 given folder, shared drive, or entire drive into Google Sheets.
@@ -179,6 +208,7 @@ const ProjectsSection = () => {
             <CardImage src={titus} alt="Project 4" />
             <CardContent>
               <CardTitle>TITUS Tag convertor</CardTitle>
+              <CardSubTitle>Technologies Used: Google Sheets, Apps Script, Drive API (V2), Card Service</CardSubTitle>
               <CardDescription>
                 A Google Drive add-on to read Titus tags of uploaded files and
                 convert them into Google labels.
